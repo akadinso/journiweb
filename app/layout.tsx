@@ -1,9 +1,8 @@
 import type React from "react"
-import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
+import { GoogleTagManager } from '@next/third-parties/google'
 
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
-import Script from "next/script"
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist-sans" })
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" })

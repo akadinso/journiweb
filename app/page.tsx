@@ -32,7 +32,7 @@ import {
 export default function Home() {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
 
-  const bookingUrl = "https://zbooking.us/hIpOs";
+  const bookingUrl = "https://forms.zoho.com/akadinsoosuagwujour1/form/ServiceOrderForm";
 
   return (
     <main className="min-h-screen bg-background">
