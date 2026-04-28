@@ -373,7 +373,7 @@ export default function Home() {
                     </ul>
                     <Button
                       onClick={() => setIsBookingOpen(true)}
-                      className="w-full font-semibold"
+                      className="w-full font-semibold inline-block"
                       variant={plan.highlighted ? "default" : "outline"}
                       size="lg"
                     >
@@ -466,7 +466,7 @@ export default function Home() {
                     </ul>
                     <Button
                       onClick={() => setIsBookingOpen(true)}
-                      className="w-full font-semibold"
+                      className="w-full font-semibold inline-block"
                       variant={plan.highlighted ? "default" : "outline"}
                       size="lg"
                     >
@@ -559,7 +559,7 @@ export default function Home() {
                     </ul>
                     <Button
                       onClick={() => setIsBookingOpen(true)}
-                      className="w-full font-semibold"
+                      className="w-full font-semibold inline-block"
                       variant={plan.highlighted ? "default" : "outline"}
                       size="lg"
                     >
@@ -660,7 +660,7 @@ export default function Home() {
                     </ul>
                     <Button
                       onClick={() => setIsBookingOpen(true)}
-                      className="w-full font-semibold"
+                      className="w-full font-semibold inline-block"
                       variant={plan.highlighted ? "default" : "outline"}
                       size="lg"
                     >
