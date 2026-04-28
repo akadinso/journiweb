@@ -115,7 +115,7 @@ export default function Home() {
                 className="text-lg px-8 py-6 font-semibold shadow-lg hover:shadow-xl transition-all"
                 onClick={() => setIsBookingOpen(true)}
               >
-                <a href="#services">Start Your Project <Zap className="ml-2 h-5 w-5" /></a>
+                <a href="#services">Start Your Project <Zap className="ml-2 h-5 w-5 inline-block" /></a>
               </Button>
 
               <Button
