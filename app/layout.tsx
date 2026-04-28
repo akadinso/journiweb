@@ -1,5 +1,6 @@
 import type React from "react"
 import { GoogleTagManager } from '@next/third-parties/google'
+import "./globals.css"
 
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
