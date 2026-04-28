@@ -799,12 +799,6 @@ export default function Home() {
           <div className="border-t border-border/40 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-foreground/60">© 2025 JourniWeb. All rights reserved.</p>
             <div className="flex gap-6 text-sm text-foreground/60">
-              <Link href="#" className="hover:text-foreground transition-colors">
-                Privacy Policy
-              </Link>
-              <Link href="#" className="hover:text-foreground transition-colors">
-                Terms of Service
-              </Link>
               <p>Powered by JourniWeb</p>
             </div>
           </div>
