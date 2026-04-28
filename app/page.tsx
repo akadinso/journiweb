@@ -373,11 +373,11 @@ export default function Home() {
                     </ul>
                     <Button
                       onClick={() => setIsBookingOpen(true)}
-                      className="w-full font-semibold inline-block"
+                      className="w-full font-semibold"
                       variant={plan.highlighted ? "default" : "outline"}
                       size="lg"
                     >
-                      <a href={bookingUrl} target="_blank">Get Started <ChevronRight className="ml-2 h-4 w-4" /></a>
+                      <a href={bookingUrl} target="_blank">Get Started <ChevronRight className="ml-2 h-4 w-4 inline-block" /></a>
                     </Button>
                   </CardContent>
                 </Card>
@@ -470,7 +470,7 @@ export default function Home() {
                       variant={plan.highlighted ? "default" : "outline"}
                       size="lg"
                     >
-                      <a href={bookingUrl} target="_blank">Get Started <ChevronRight className="ml-2 h-4 w-4" /></a>
+                      <a href={bookingUrl} target="_blank">Get Started <ChevronRight className="ml-2 h-4 w-4 inline-block" /></a>
                     </Button>
                   </CardContent>
                 </Card>
@@ -563,7 +563,7 @@ export default function Home() {
                       variant={plan.highlighted ? "default" : "outline"}
                       size="lg"
                     >
-                      <a href={bookingUrl} target="_blank">Get Started <ChevronRight className="ml-2 h-4 w-4" /></a>
+                      <a href={bookingUrl} target="_blank">Get Started <ChevronRight className="ml-2 h-4 w-4 inline-block" /></a>
                     </Button>
                   </CardContent>
                 </Card>
@@ -664,7 +664,7 @@ export default function Home() {
                       variant={plan.highlighted ? "default" : "outline"}
                       size="lg"
                     >
-                      <a href={bookingUrl} target="_blank">Get Started <ChevronRight className="ml-2 h-4 w-4" /></a>
+                      <a href={bookingUrl} target="_blank">Get Started <ChevronRight className="ml-2 h-4 w-4 inline-block" /></a>
                     </Button>
                   </CardContent>
                 </Card>
