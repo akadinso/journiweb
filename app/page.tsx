@@ -28,7 +28,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { CalendlyModal } from "@/components/calendly-modal";
 
 export default function Home() {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
@@ -37,6 +36,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-background">
+      
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-lg border-b border-border/40 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -115,7 +115,7 @@ export default function Home() {
                 className="text-lg px-8 py-6 font-semibold shadow-lg hover:shadow-xl transition-all"
                 onClick={() => setIsBookingOpen(true)}
               >
-                Start Your Project <Zap className="ml-2 h-5 w-5" />
+                <a href="#services">Start Your Project <Zap className="ml-2 h-5 w-5" /></a>
               </Button>
 
               <Button
@@ -377,7 +377,7 @@ export default function Home() {
                       variant={plan.highlighted ? "default" : "outline"}
                       size="lg"
                     >
-                      Get Started <ChevronRight className="ml-2 h-4 w-4" />
+                      <a href={bookingUrl} target="_blank">Get Started <ChevronRight className="ml-2 h-4 w-4" /></a>
                     </Button>
                   </CardContent>
                 </Card>
@@ -470,7 +470,7 @@ export default function Home() {
                       variant={plan.highlighted ? "default" : "outline"}
                       size="lg"
                     >
-                      Get Started <ChevronRight className="ml-2 h-4 w-4" />
+                      <a href={bookingUrl} target="_blank">Get Started <ChevronRight className="ml-2 h-4 w-4" /></a>
                     </Button>
                   </CardContent>
                 </Card>
@@ -563,7 +563,7 @@ export default function Home() {
                       variant={plan.highlighted ? "default" : "outline"}
                       size="lg"
                     >
-                      Get Started <ChevronRight className="ml-2 h-4 w-4" />
+                      <a href={bookingUrl} target="_blank">Get Started <ChevronRight className="ml-2 h-4 w-4" /></a>
                     </Button>
                   </CardContent>
                 </Card>
@@ -664,7 +664,7 @@ export default function Home() {
                       variant={plan.highlighted ? "default" : "outline"}
                       size="lg"
                     >
-                      Get Started <ChevronRight className="ml-2 h-4 w-4" />
+                      <a href={bookingUrl} target="_blank">Get Started <ChevronRight className="ml-2 h-4 w-4" /></a>
                     </Button>
                   </CardContent>
                 </Card>
@@ -810,7 +810,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-      
     </main>
   );
 }
