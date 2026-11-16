@@ -26,11 +26,11 @@ import {
 } from "@/components/ui/card";
 
 const TALLY_URL =
-  process.env.NEXT_PUBLIC_TALLY_FORM_URL ?? "https://tally.so/r/7XKK0R";
+  process.env.NEXT_PUBLIC_TALLY_FORM_URL ?? "https://tally.so/r/gbq9pK";
 
 const CALENDLY_URL =
   process.env.NEXT_PUBLIC_CALENDLY_URL ??
-  "https://calendly.com/akadinso-osuagwu/intro-call";
+  "https://calendly.com/akadinso-osuagwu/journiweb-free-business-consultation";
 
 const services = [
   {
