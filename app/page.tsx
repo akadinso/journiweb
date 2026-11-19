@@ -108,7 +108,8 @@ const pricingGroups = [
     plans: [
       {
         name: "Starter",
-        price: "R4,999",
+        price: "R999",
+        note: "setup + R299/month",
         description: "For businesses beginning to systemise lead capture.",
         features: [
           "AI chatbot on 1 website",
@@ -120,7 +121,8 @@ const pricingGroups = [
       },
       {
         name: "Growth",
-        price: "R9,999",
+        price: "R1,999",
+        note: "setup + R599/month",
         description:
           "For growing businesses that need a stronger lead process.",
         features: [
@@ -128,14 +130,15 @@ const pricingGroups = [
           "Up to 200 leads per month",
           "Advanced CRM automation",
           "Priority support",
-          "Weekly reporting",
+          "Monthly reporting",
           "Custom landing pages",
         ],
         featured: true,
       },
       {
         name: "Scale",
-        price: "R19,999",
+        price: "R3,999",
+        note: "setup + R999/month",
         description: "For businesses with more advanced lead-generation needs.",
         features: [
           "Multi-website deployment",
@@ -153,7 +156,7 @@ const pricingGroups = [
     plans: [
       {
         name: "Landing Page",
-        price: "R2,999",
+        price: "R799",
         description: "A focused page for one offer, service, or campaign.",
         features: [
           "1 custom landing page",
@@ -166,26 +169,26 @@ const pricingGroups = [
       },
       {
         name: "Business Website",
-        price: "R7,999",
+        price: "R1,500",
         description: "A professional multi-page website for your business.",
         features: [
-          "Up to 5 custom pages",
+          "Up to 5 pages",
           "Responsive design",
           "SEO foundations",
           "Contact and booking forms",
           "Analytics setup",
-          "3 rounds of revisions",
+          "2 rounds of revisions",
         ],
         featured: true,
       },
       {
         name: "E-commerce",
-        price: "R14,999",
+        price: "R3,500",
         description:
           "An online store for selling products and managing orders.",
         features: [
           "Online storefront",
-          "Up to 50 initial products",
+          "Up to 20 initial products",
           "Payment gateway integration",
           "Cart and checkout",
           "Product management",
@@ -199,7 +202,7 @@ const pricingGroups = [
     plans: [
       {
         name: "Essential",
-        price: "R3,499",
+        price: "R999",
         description: "Automate a small set of everyday business tasks.",
         features: [
           "Up to 3 automation workflows",
@@ -212,7 +215,7 @@ const pricingGroups = [
       },
       {
         name: "Professional",
-        price: "R6,999",
+        price: "R1,999",
         description: "Connect key tools and processes across your business.",
         features: [
           "Up to 10 automation workflows",
@@ -226,7 +229,7 @@ const pricingGroups = [
       },
       {
         name: "Enterprise",
-        price: "R12,999",
+        price: "R3,999",
         description: "For complex workflows and broader integration needs.",
         features: [
           "Scoped multi-workflow solution",
